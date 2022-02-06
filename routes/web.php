@@ -17,3 +17,6 @@ Route::get('/', function () {
     return "auth";
 });
 
+Route::get('/home', function () {
+    return "home";
+});
